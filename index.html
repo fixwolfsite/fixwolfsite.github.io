@@ -5,10 +5,10 @@ title: Home
 
 <div class="jumbotron welcome">
 	<div class="container">
-		<h1 class="bold">Custom Rom Development<br />by Android-Andi</h1>
-		<p>Find all important information about latest changes on the "<a href="http://andi34.github.io/news.html">news page</a>". If you find a bug on this webpage, feel free to help fixing it :), you can <a href="https://github.com/andi34/andi34.github.io">find the source here</a>.</p>
-		<a href="https://androidfilehost.com/?w=devices&uid=23329332407587552" class="btn btn-primary"><i class="material-icons">open_in_new</i> To all Downloads</a>
-		<a href="https://github.com/andi34" class="btn btn-white"><i class="material-icons">account_circle</i> Github Profile</a>
+		<h1 class="bold">Custom ROMs Development,<br />By: Secretwolf98</h1>
+		<p>Find all important information about latest changes in the latest ROMs updates on the "<a href="http://fixwolfsite.github.io/news.html">news page</a>". If you find a bug on my GitHub webpage, feel free to help us fix it. :) You can do so at, <a href="https://github.com/secretwolf98/secretwolf98.github.io">you can find the sources here</a>.</p>
+		<a href="https://androidfilehost.com/?w=profile&uid=889964283620764442" class="btn btn-primary"><i class="material-icons">open_in_new</i> To all Downloads</a>
+		<a href="https://github.com/fixwolfsite" class="btn btn-white"><i class="material-icons">account_circle</i> My Github Profile</a>
 	</div>
 </div>
 
@@ -22,7 +22,7 @@ title: Home
 		</button>
 		<b>Warning!</b>
 		I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.
-		Please do some research if you have any concerns about features included in this Roms & Recoveries before flashing it!
+		Please do some research if you have any concerns about features included in these ROMs and/or Recoveries before flashing it!
 		YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.
 	</div>
 </div>
@@ -31,9 +31,9 @@ title: Home
 	<div class="row">
 
 		<div class="col-md-7">
-			<h2><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i> Latest Updates</h2>
+			<h2><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i> Latest Updates:</h2>
 			<hr />
-			{% for news in site.data.news limit:2 %}
+			{% for news in site.data.news limit:5 %}
 			<div class="card">
 				<div class="card-body">
 					<h3 class="card-title">{{ news.date | date_to_long_string }}</h3>
@@ -49,131 +49,86 @@ title: Home
 		<hr class="w-100 d-sm-block d-md-none mb-4">
 		<div class="col-md-5">
 
-			<h2><i class="fa fa-download fa-fw" aria-hidden="true"></i> Downloads</h2>
+			<h2><i class="fa fa-download fa-fw" aria-hidden="true"></i> All downloads:</h2>
 			<hr />
 
 			<div class="card">
-
+				
+				<div class="card">
 				<div class="card-body">
-					<h3 class="card-title">Samsung Galaxy Tab 2</h3>
+					<h3 class="card-title">Discord</h3>
 					<hr class="light">
 					<div class="list-group">
 						<h6 class="list-group-item disabled">
-							Roms
+							Join our Discord server:
 						</h6>
-						<a class="list-group-item list-group-item-action" href="roms_tab2_cm.html">
+						<a href="discord" class="list-group-item list-group-item-action">
+							Join today!
+						</a>
+					</div>
+				</div>
+			</div>
+
+				<div class="card-body">
+					<h3 class="card-title">Samsung Galaxy Tab 4 7.0" Wifi</h3>
+					<hr class="light">
+					<div class="list-group">
+						<h6 class="list-group-item disabled">
+							All ROMs:
+						</h6>
+						<a class="list-group-item list-group-item-action" href="roms_tab4.html">
+							All current ROMs
+						</a>
+					</div>
+					<br>
+					<div class="list-group">
+						<h6 class="list-group-item disabled">
+							Extras:
+						</h6>
+						<a class="list-group-item list-group-item-action" href="recoveries_tab4.html">
+							Recommened Recoveries
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-body">
+					<h3 class="card-title">Nook HD</h3>
+					<hr class="light">
+					<div class="list-group">
+						<h6 class="list-group-item disabled">
+							All ROMs:
+						</h6>
+						<a href="roms_hummingbird_cm.html" class="list-group-item list-group-item-action">
 							CyanogenMod
 						</a>
-						<a class="list-group-item list-group-item-action" href="roms_tab2_lineage.html">
+						<a href="roms_hummingbird_lineage.html" class="list-group-item list-group-item-action">
 							LineageOS
 						</a>
-						<a class="list-group-item list-group-item-action" href="roms_tab2_omni.html">
-							OmniRom
-						</a>
-						<a class="list-group-item list-group-item-action" href="roms_tab2_slim.html">
-							SlimRoms
-						</a>
-						<a class="list-group-item list-group-item-action" href="roms_tab2_aosp.html">
-							AOSP
-						</a>
-					</div>
-					<br>
-					<div class="list-group">
-						<h6 class="list-group-item disabled">
-							Extras
-						</h6>
-						<a class="list-group-item list-group-item-action" href="recoveries_tab2.html">
-							Recoveries
-						</a>
-						<a class="list-group-item list-group-item-action" href="gapps.html" >
-							GApps
+            <a href="stock_hummingbird.html" class="list-group-item list-group-item-action">
+							Stock NookOS
 						</a>
 					</div>
 				</div>
 			</div>
-
+		
 			<div class="card">
 				<div class="card-body">
-					<h3 class="card-title">Samsung Galaxy S3 mini</h3>
+					<h3 class="card-title">Nook HD+</h3>
 					<hr class="light">
 					<div class="list-group">
 						<h6 class="list-group-item disabled">
-							Roms
+							All ROMs:
 						</h6>
-						<a href="roms_golden_slim.html" class="list-group-item list-group-item-action">
-							SlimRoms
+						<a href="roms_ovation_cm.html" class="list-group-item list-group-item-action">
+							CyanogenMod
 						</a>
-					</div>
-					<br>
-					<div class="list-group">
-						<h6 class="list-group-item disabled">
-							Extras
-						</h6>
-						<a href="recoveries_golden.html" class="list-group-item list-group-item-action">
-							Recoveries
-						</a>
-						<a href="gapps.html" class="list-group-item list-group-item-action">
-							GApps
-						</a>
-					</div>
-				</div>
-			</div>
-
-			<div class="card">
-				<div class="card-body">
-					<h3 class="card-title">Samsung Galaxy Nexus</h3>
-					<hr class="light">
-					<div class="list-group">
-						<h6 class="list-group-item disabled">
-							Roms
-						</h6>
-						<a class="list-group-item list-group-item-action" href="roms_tuna_aosp.html">
-							AOSP
-						</a>
-						<a class="list-group-item list-group-item-action" href="roms_tuna_lineage.html">
+						<a href="roms_ovation_lineage.html" class="list-group-item list-group-item-action">
 							LineageOS
 						</a>
-						<a class="list-group-item list-group-item-action" href="roms_tuna_omni.html">
-							OmniRom
-						</a>
-						<a href="roms_tuna_slim.html" class="list-group-item list-group-item-action">
-							SlimRoms
-						</a>
-					</div>
-					<br>
-					<div class="list-group">
-						<h6 class="list-group-item disabled">
-							Extras
-						</h6>
-						<a href="recoveries_tuna.html" class="list-group-item list-group-item-action">
-							Recoveries
-						</a>
-						<a href="gapps.html" class="list-group-item list-group-item-action">
-							GApps
-						</a>
-					</div>
-				</div>
-			</div>
-
-			<div class="card">
-				<div class="card-body">
-					<h3 class="card-title">OnePlus One</h3>
-					<hr class="light">
-					<div class="list-group">
-						<h6 class="list-group-item disabled">
-							Roms
-						</h6>
-						<a href="roms_opo_slim.html" class="list-group-item list-group-item-action">
-							SlimRoms
-						</a>
-					</div>
-					<br>
-					<div class="list-group">
-						<h6 class="list-group-item disabled">
-							Extras
-						</h6>
-						<a href="gapps.html" class="list-group-item list-group-item-action">
-							GApps
+						<a href="stock_ovation.html" class="list-group-item list-group-item-action">
+							Stock NookOS
 						</a>
 					</div>
 				</div>
