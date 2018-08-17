@@ -1,9 +1,3 @@
-name: Custom Rom Development by Android-Andi @ XDA
-description: Custom Rom Development by Android-Andi for the Samsung Galaxy Tab 2 and Samsung Galaxy S3 mini.
-repository: andi34/andi34.github.io
-url: http://andi34.github.io
-baseurl: ""
-
 defaults:
   -
     scope:
